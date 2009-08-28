@@ -1,0 +1,17 @@
+This script will allow a user to create a scala Lift Mapper ORM from the given a .sql file containing ddl statements.
+
+Currently this script does not work with a lot of different grammars.  Basically it looks for insert statements and creates the appropriate classes.  As time and needs dictate this will be expanded.
+
+Currently take a look at the test folder for a schema that will go through the script fine.
+
+There are a lot of improvements I would like to make...
+* Handle all ddl grammars and do something better than error out
+* Improve the command-line handling and error reporting.
+* Separate out the writing of classes into its own file and maybe even abstract it so you can plug-in your own writer easily. 
+* Clean-up code
+* Improve compilation scenario
+
+To compile/run you do the following in the src directory...
+scalac DDLParser.scala
+scala -classpath . ParseExpr ../test/testSchema1.sql [outputOfOrmFiles]
+
