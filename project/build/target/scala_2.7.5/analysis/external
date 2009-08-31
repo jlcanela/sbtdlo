@@ -1,0 +1,5 @@
+#External Dependencies
+#Mon Aug 31 23:04:03 CEST 2009
+/home/jlcanela/dev/ansoft/sbtdlo/project/boot/scala-2.7.5/sbt-0.5.2/sbt_2.7.5-0.5.2.jar=DDLtoLiftORMProject.scala
+/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar=DDLtoLiftORMProject.scala
+/home/jlcanela/dev/ansoft/sbtdlo/project/boot/scala-2.7.5/lib/scala-library.jar=DDLtoLiftORMProject.scala
